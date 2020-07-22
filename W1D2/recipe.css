@@ -23,7 +23,7 @@ blockquote{
     
 }
 
-pre, #csshtmlvalidation{
+pre, .valid{
     text-align: right;
 }
 ul{

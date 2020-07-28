@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web Form</title>
+    <link rel="stylesheet" href="./webform.css">
+</head>
+<body>
+    <form class="" action="webform.html" method="POST">
+    
+ <label for="email">EmailAddress</label> <br>
+   <input type="email" id="email" name="email"  placeholder="Enter Email"  >
+<label for="email" id="labelemail"></br> We'll never share your Email with anyone else</label></br>
+
+
+ <label for="password">Password</label> </br>
+ <input type="password" id="password" name="password" placeholder="Password"
+    
+     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.{10,})" >
+    </p>
+ <div> <label for="url">url</label> </div>    
+ <div> <input type="url" id="url" name="url" placeholder="url" pattern="https?://.+"></div>
+<div><label><input type="checkbox" name="checkbox" id="checkbox">check me out</label> </div>
+<p>
+<div> <input type="submit" name="submit" id="submit"></div>
+</p>
+</form>
+</body>
+</html>
